@@ -10,8 +10,8 @@ interface LibraryUser
 
 class KidUser implements LibraryUser//child class
 {
-	int age;
-	String bookType;
+	private int age;
+	private String bookType;
 	public KidUser(int age, String bookType) {
 		this.age=age;
 		this.bookType=bookType;
@@ -45,8 +45,8 @@ class KidUser implements LibraryUser//child class
 ///end of child class
 
 class Adultuser implements LibraryUser{//adult class
-	int age;
-	String bookType;
+	private int age;
+	private String bookType;
 	public Adultuser(int age, String bookType) {
 		this.age=age;
 		this.bookType=bookType;
