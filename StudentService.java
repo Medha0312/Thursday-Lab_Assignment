@@ -58,13 +58,7 @@ public static void getStudentById(int id) throws StudentNotFoundException	{
 	}
 	}
 
-//     static ArrayList<Student> student=new ArrayList<Student>();
-//     public static void creatStudent(Student s)
-//     {
-//    	 student.add(s);
-//    	 
-//     }
-//     public static void
+
 //
 //	
 
